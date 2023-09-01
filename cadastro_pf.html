@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuario</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!--CSS DA PÁGINA-->
+    <link rel="stylesheet" href="./assets/CSS/cadastro_pf.css">
+</head>
+
+<body>
+   
+    <div class="form-container">
+      <h1>Seja bem-vindo!</h1>
+      <h2>Preencha os campos abaixo para cadastrar:</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Insira seu nome completo">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Insira seu e-mail">
+          </div>
+          <div class="form-group">
+          <label for="state">Estado:</label>
+          <select id="state" name="state">
+              <option value="SP">São Paulo</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="MG">Minas Gerais</option>
+              <!-- Adicione mais opções de estados aqui -->
+          </select>
+          </div>
+          <div class="form-group">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required placeholder="XXX.XXX.XXX-XX">
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+          </div>
+          <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required placeholder="Digite uma senha de no mínino 8 digítos">
+          </div>
+          <div class="form-group">
+            <label for="senha">Repetir senha:</label>
+            <input type="password" id="senha" name="senha" required placeholder="Digite uma senha de no mínino 8 digítos">
+          </div>
+          <button type="submit">Cadastrar</button>
+
+        </form>   
+    </div>
+
+    
+  </body>
+    <img src="./assets/img/imagemForm.png" alt="Imagem de pessoas" class="img-1">
+  </html>
