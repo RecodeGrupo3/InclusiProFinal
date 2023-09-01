@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+body::before {
+    content: "";
+    background-image: url(../img/maos3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 2em;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.85;
+
+}
+
+
+header {
+    width: 100%;
+    height: 153px;
+}
+
+.logo {
+    width: 4em;
+    height: 4em;
+    margin: 2em;
+}
+
+.btn {
+    background-color: gray;
+    border-radius: 1px solid transparent;
+    color: #FFF;
+}
+
+.navbar {
+
+    background-color: #ece7ef;
+
+}
+
+.nav-item {
+    align-items: center;
+    font-size: 22px;
+    color: black;
+    padding-left: 1em;
+
+}
+
+
+#inclusi {
+    color: #C658FF;
+}
+
+#pro {
+    color: #61ffb8;
+}
+
+.card {
+
+    background: none;
+    margin-left: 1em;
+
+    color: #ffe8d9;
+    box-shadow: 0px 0px 5px 5px #aef3d4;
+    background-color: #c059f3;
+}
+
+.marginCard{
+    margin-top: 5em;
+}
+
+.card:hover {
+    scale: 1.1;
+}
+.card-body {
+    background-color: #C658FF;
+    border-radius: 0 0 6px 6px;
+
+}
+
+

@@ -1,0 +1,67 @@
+.vagas h2 {
+    position: relative;
+    margin-bottom: 35px;
+}
+.vagas h2::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: inline-block;
+    background: #91B3D9;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+    margin: 0 auto;
+}
+
+.vagas .box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+    transition: 0.5s;
+    position: relative;
+    background-color: #333;
+    max-height: 230px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.vagas .box:hover {
+	padding: 30px 30px 70px 30px;
+	box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.20);
+    background: linear-gradient(90deg, rgba(226,228,227,1) 0%, rgba(222,222,222,1) 100%);
+}
+.vagas .box span {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    line-height: normal;
+}
+.vagas .box h4 a {
+	font-size: 24px;
+	font-weight: 600;
+	padding: 0;
+	margin: 20px 0;
+	color: #dadada;
+	text-decoration: none;
+}
+.vagas .box p {
+	color: #aaaaaa;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+.vagas .box:hover h4 a {
+    background: #61FEB9;
+    background: linear-gradient(to right, #61FEB9 0%, #91B3D9 35%, #C558FF 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.vagas .box:hover span,
+.vagas .box:hover p {
+  	color: #333;
+}

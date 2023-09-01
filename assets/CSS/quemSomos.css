@@ -1,0 +1,19 @@
+.conectadosIMG{
+    width: 30em;
+}
+
+.titulo{
+    font-size: 28px;
+}
+
+.foto{
+   width: 10%;
+   height: 10%;
+   border-radius: 5em;
+}
+
+@media screen and (max-width: 500px) {
+    .conectadosIMG{
+        visibility: hidden;
+    }
+}
